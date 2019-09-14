@@ -1,0 +1,15 @@
+1. To clone Repsitory- 
+
+git clone url
+
+2. To Check current branch - git branch
+
+3. To add the change file - git add filename for selected files.
+
+or git add . to Add all the files from current directory.
+
+4. To commit added files which has been added - git commit -m "message" or "git commit" to write in vim edditor 
+
+5. To See commit history - git log
+
+6. To See particular changes of commit with the help of commit id -> git show CommitID
