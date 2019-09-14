@@ -4,6 +4,8 @@ git clone url
 
 2. To Check current branch - git branch
 
+3. To see difference or file changes - git diff
+
 3. To add the change file - git add filename for selected files.
 
 or git add . to Add all the files from current directory.
@@ -13,3 +15,14 @@ or git add . to Add all the files from current directory.
 5. To See commit history - git log
 
 6. To See particular changes of commit with the help of commit id -> git show CommitID
+
+7. to revert perticuler commit which is not pushed to git command is  - git reset --soft commitID
+	a. to bring on original position of all file after reset soft command is -  git reset
+
+8.To create new branch git checkout -b "branch name"
+
+
+9 IMP: merge thing : 1. If you need to merge master with your local - go to your local branch and do git merge "branch name" which you need
+			to merge with your local branch
+		     2. If you need to merge your local branch to master or any other dev branch go to the master or dev branch and do 
+			git merge your local branch
